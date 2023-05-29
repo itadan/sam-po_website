@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- шрифты с google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Raleway:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- подключение стилей css-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/test2.css" />
+    <title>Тест на пригодность</title>
+</head>
+
+<body class="four" onload="NextQuestion(0)">
+    <nav class="navbar">
+        <div class="container_menu">
+            <ul class="nav-menu">
+                <li class="nav-menu__item"><a href="/product.html">Продукция</a></li>
+                <li class="nav-menu__item"><a href="/about us.html">О нас</a></li>
+                <li class="nav-menu__item logo">
+                    <a href="/index.html" class="logo__link">
+                        <img class="logo__image" src="/img/Лого.png" alt="сам" class="logo">
+
+                    </a>
+                </li>
+                <li class="nav-menu__item "><a class="submenu-link" href="">Тесты</a> 
+                    <ul class="submenu">
+                        <li><a href="/test.html">Тест на знание</a></li>
+                        <li><a href="/test2.html">Тест на пригодность</a></li>
+                        <li><a href="/game.html">Игра</a></li>
+                    </ul>
+                </li>
+                <li class="nav-menu__item"><a href="#"> Контакты</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <h2 class="testh2">Какое мороженое вам больше подходит?Проверьте в этом тесте</h2>
+    <p class="testp">Кто не любит мороженое? С шоколадной крошкой и кусочками фруктов, в хрустящем стаканчике или в глазури на палочке... Ммм, объедение! 
+
+        А каким мороженым были бы вы в параллельной вселенной? Пройдите наш тест, чтобы узнать.</p>
+        <main>
+            <div class="d-flex flex-column align-items-center">
+              <div class="question"></div>
+              <ul class="answer"></ul>
+              <div class="quiz-counter"></div>
+            </div>
+          </main>
+    <footer>
+        <div class="container__footer">
+            <div class="footer__items">
+                <div class="footer__item">
+                    <p class="p_footer_one">8 (846) 955-04-71</p>
+                    <p class="p_footer_one">secretary@sam-po.ru</p>
+                </div>
+                <div class="footer__item">
+                    <p class="p_footer_two">© Группа компаний САМ-ПО, 2023. Все права защищены.</p>
+                </div>
+                <div class="footer__item">
+                    <p class="p_footer_one">г. Самара, пр-д Мальцева, 9</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script-answer.js"></script>
+    <script src="/js/script-code.js"></script>
+    <script src="/js/script-question.js "></script>
+    <script src="/js/test.js"></script>
+</body>
+
+</html>
